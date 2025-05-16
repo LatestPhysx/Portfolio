@@ -13,7 +13,7 @@ const Navbar = () => {
     const [sideMenu, showSideMenu] = useState(false);
     let sideMenuStyle;
     if (sideMenu) {
-        sideMenuStyle = 'flex flex-col gap-5 capitalize transition-all duration-700 ease-in lg:hidden fixed w-1/2 p-3 justify-center text-white h-full top-0 right-0 bg-black'
+        sideMenuStyle = 'flex items-center sm:items-start flex-col gap-5 bg-gray-900 capitalize transition-all duration-700 ease-in lg:hidden fixed w-1/2 p-3 justify-center text-white h-full top-0 right-0 bg-black'
     }
     else{
         sideMenuStyle = 'flex flex-col gap-5 capitalize transition-all duration-700 ease-in lg:hidden fixed w-1/2 p-3 justify-center text-white h-full top-0 -right-full bg-black'
@@ -32,10 +32,10 @@ const Navbar = () => {
             </div>
             <div className={sideMenuStyle}>
                 <button onClick={() => showSideMenu((prevState) => !prevState)} className='absolute hover:cursor-pointer top-0 right-0 p-2 sm:p-5'><CloseIcon className='ml-1.5' /></button>
-                <span className='flex items-center py-4 px-2 sm:p-5 hover:bg-gray-200 duration-700 hover:text-black rounded'><AboutIcon className='mr-2.5' />about</span>
-                <span className='flex items-center py-4 px-2 sm:p-5 hover:bg-gray-200 duration-700 hover:text-black rounded'><EducationtIcon className='mr-2.5' />education</span>
-                <span className='flex items-center py-4 px-2 sm:p-5 hover:bg-gray-200 duration-700 hover:text-black rounded'><ProjectIcon className='mr-2.5' />projects</span>
-                <span className='flex items-center py-4 px-2 sm:p-5 hover:bg-gray-200 duration-700 hover:text-black rounded'><ContactIcon className='mr-2.5' />contact</span>
+                <span className='flex items-center hover:cursor-pointer justify-center sm:justify-start w-full py-4 px-2 sm:p-5 hover:bg-gray-200 duration-700 hover:text-black rounded'><AboutIcon className='mr-2.5' />about</span>
+                <span className='flex items-center hover:cursor-pointer justify-center sm:justify-start w-full  py-4 px-2 sm:p-5 hover:bg-gray-200 duration-700 hover:text-black rounded'><EducationtIcon className='mr-2.5' />education</span>
+                <span className='flex items-center hover:cursor-pointer justify-center sm:justify-start w-full  py-4 px-2 sm:p-5 hover:bg-gray-200 duration-700 hover:text-black rounded'><ProjectIcon className='mr-2.5' />projects</span>
+                <span className='flex items-center hover:cursor-pointer justify-center sm:justify-start w-full  py-4 px-2 sm:p-5 hover:bg-gray-200 duration-700 hover:text-black rounded'><ContactIcon className='mr-2.5' />contact</span>
                 <button className='flex hover:cursor-pointer bg-white hover:bg-gray-300 duration-700 text-black w-fit rounded items-center p-2 my-4 mx-2 sm:m-5'>Resume <DownloadIcon className='ml-1.5 w-3 h-3' /></button>
             </div>
         </nav>

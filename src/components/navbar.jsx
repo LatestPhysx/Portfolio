@@ -26,6 +26,7 @@ const Navbar = () => {
             <div className='hidden lg:flex capitalize items-center content-center gap-5'>
                 <span>about</span>
                 <span>education</span>
+                <span>skills</span>
                 <span>projects</span>
                 <span>contact</span>
                 <button className='flex bg-black dark:text-black dark:bg-white rounded text-white items-center p-2.5'>Resume <DownloadIcon className='ml-1.5' /></button>

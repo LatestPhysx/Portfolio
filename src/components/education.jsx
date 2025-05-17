@@ -4,7 +4,7 @@ import BallIcon from '../assets/ball.svg?react'
 
 const Education = () => {
     return (<>
-        <div className='w-full mt-10 about p-5 h-fit flex justify-center align-middle capitalize font-bold text-4xl'>
+        <div className='w-full my-10 about p-5 h-fit flex justify-center align-middle capitalize font-bold text-4xl'>
             <span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>my education</span>
         </div>
         <section className='w-full about capitalize h-fit p-5 grid mt-10 gap-15 md:gap-0 grid-cols-1'>
@@ -34,7 +34,7 @@ const Education = () => {
                     <BallIcon className='hidden md:block z-10' />
                     <div className='w-[0.5px] bg-black absolute h-full hidden md:block top-0 bottom-0'></div>
                 </div>
-                <div className='grid gap-5 mx-0 md:mx-auto grid-cols-1'>
+                <div className='grid gap-5 grid-cols-1'>
                     <span className='font-bold text-lg'>Training in Personal and Professional Coaching</span>
                     <span className='text-neutral-600 dark:text-neutral-400'>developing skills in communication, leadership, and individual performance enhancement.</span>
                 </div>

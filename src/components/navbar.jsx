@@ -13,7 +13,7 @@ const Navbar = () => {
     const [sideMenu, showSideMenu] = useState(false);
     let sideMenuStyle;
     if (sideMenu) {
-        sideMenuStyle = 'flex items-center sm:items-start flex-col gap-5 bg-gray-900 capitalize transition-all duration-700 ease-in lg:hidden fixed w-1/2 p-3 justify-center text-white h-full top-0 right-0 bg-black'
+        sideMenuStyle = 'flex z-20 items-center sm:items-start flex-col gap-5 bg-gray-900 capitalize transition-all duration-700 ease-in lg:hidden fixed w-1/2 p-3 justify-center text-white h-full top-0 right-0 bg-black'
     }
     else{
         sideMenuStyle = 'flex flex-col gap-5 capitalize transition-all duration-700 ease-in lg:hidden fixed w-1/2 p-3 justify-center text-white h-full top-0 -right-full bg-black'

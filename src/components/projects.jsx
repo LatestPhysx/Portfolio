@@ -6,7 +6,7 @@ import LinkIcon from '../assets/link.svg?react'
 
 const Projects = () => {
     return (<>
-        <section className='w-full capitalize text-white sora h-fit p-5 md:p-10 mt-10 bg-black flex flex-col gap-10'>
+        <section id='projects' className='w-full capitalize text-white sora h-fit p-5 md:p-10 mt-10 bg-black flex flex-col gap-10'>
             <div className='w-full my-10 p-5 h-fit flex justify-center align-middle capitalize text-4xl'>
                 <span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>my <span className="font-extrabold">Education</span></span>
             </div>

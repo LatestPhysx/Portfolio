@@ -1,22 +1,26 @@
-import './App.css'
-import Navbar from './components/navbar'
-import About from './components/about'
-import Education from './components/education'
-import Skills from './components/skills'
-import Projects from './components/projects'
-import Contact from './components/contact'
-import Footer from './components/footer'
+import React from 'react';
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+import MainLayout from './layout/mainLayout';
+import MainPage from './pages/mainPage';
+
+const router = createBrowserRouter([{
+  path: "/", element: <MainLayout />, children: [
+    {
+      index: true,
+      element: <MainPage />
+    },
+    {
+      path: '*',
+      element: <MainPage />
+    }
+  ]
+}]);
+
 
 function App() {
   return (
     <>
-      <Navbar />
-      <About />
-      <Education />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <RouterProvider router={router} />
     </>
   )
 }

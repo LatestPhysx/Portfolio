@@ -7,7 +7,7 @@ const Education = () => {
         <div className='w-full my-10 about p-5 h-fit flex justify-center align-middle capitalize text-4xl'>
             <span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>my <span className='font-bold'>education</span></span>
         </div>
-        <section className='w-full about capitalize h-fit p-5 grid mt-10 gap-15 md:gap-0 grid-cols-1'>
+        <section id='education' className='w-full about capitalize h-fit p-5 grid mt-10 gap-15 md:gap-0 grid-cols-1'>
             <div className='w-full p-5 md:p-0 grid grid-cols-1 md:grid-cols-3'>
                 <div className='grid mx-0 md:mx-auto grid-cols-1'>
                     <span className='font-bold text-lg'>Ifiag vocational school - Casablanca</span>

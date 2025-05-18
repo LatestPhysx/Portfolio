@@ -11,8 +11,8 @@ const Projects = () => {
                 <span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>my <span className="font-extrabold">Education</span></span>
             </div>
             <div className='w-full my-5 text-center h-fit grid grid-cols-1 gap-10 md:grid-cols-2'>
-                <div>
-                    <span><img className='w-full rounded-2xl h-full' src={websiteOne} alt="" /></span>
+                <div className='content-center'>
+                    <span><img className='rounded-xl' src={websiteOne} alt="" /></span>
                 </div>
                 <div className='flex flex-col text-start gap-10 justify-center'>
                     <span className='font-extrabold text-3xl'>01</span>
@@ -22,8 +22,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='w-full my-5 text-center h-fit grid grid-cols-1 gap-10 md:grid-cols-2'>
-                <div>
-                    <span><img className='w-full rounded-2xl h-full' src={websiteTwo} alt="" /></span>
+                <div className='content-center'>
+                    <span><img className='rounded-2xl' src={websiteTwo} alt="" /></span>
                 </div>
                 <div className='flex flex-col text-start justify-center gap-10'>
                     <span className='font-extrabold text-3xl'>02</span>
@@ -33,8 +33,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className='w-full my-5 text-center h-fit grid grid-cols-1 gap-10 md:grid-cols-2'>
-                <div>
-                    <span><img className='w-full rounded-2xl h-full' src={websiteThree} alt="" /></span>
+                <div className='content-center'>
+                    <span><img className='rounded-2xl' src={websiteThree} alt="" /></span>
                 </div>
                 <div className='flex flex-col text-start gap-10 justify-center'>
                     <span className='font-extrabold text-3xl'>03</span>

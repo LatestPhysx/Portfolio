@@ -1,6 +1,6 @@
-### My Personal Portfolio
+# My Personal Portfolio
 
-# Made With React And TailwindCss And EmailJS
+### Made With React And TailwindCss And EmailJS
 
 Resources :
 https://www.svgrepo.com/

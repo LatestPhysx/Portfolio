@@ -12,7 +12,7 @@ const About = () => {
       <span className='mb-5 flex justify-center'><img className='w-50 h-auto' src={Perso} alt="" /></span>
       <span className='mb-5 flex justify-center'>Hi! I’m Omar<FingerIcon className='ml-1' /></span>
       <span className='mb-5 font-bold text-xl'>Full-Stack Devoloper Based<br /> In Casablanca, Morocco</span>
-      <span className='capitalize text-neutral-600 dark:text-neutral-300'>I specialize in creating Full-Stack Websites<br /> With The Latest Technologies<br /> Visually good looking ui's</span>
+      <span className='capitalize text-neutral-600 dark:text-neutral-300'>I specialize in creating Full-Stack Websites<br /> With The Latest Technologies<br /> And Visually good looking ui's</span>
     </section>
     <div className='w-full p-5 grid grid-cols-1 sm:grid-cols-2 gap-5 md:grid-cols-2 h-fit'>
       <HashLink className='w-fit m-auto md:m-0 md:ml-auto text-center' scroll={e => e.scrollIntoView({ behavior: 'smooth', block: 'start' })} to='#contact'><div className='p-3 hover:bg-gray-300 duration-700 text-lg m-auto md:m-0 md:ml-auto capitalize bg-black dark:bg-white content-center w-35 h-fit text-white dark:text-black rounded-2xl'>hire me</div></HashLink>

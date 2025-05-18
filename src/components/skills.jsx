@@ -29,7 +29,7 @@ const Skills = () => {
         </div>
         <div className="w-full h-full rounded whitespace-nowrap p-10 gap-8 border-2 border-inherit flex flex-col justify-center items-center">
             <span><PhpIcon /></span>
-            <span>Php \ Laravel</span>
+            <span>Laravel</span>
         </div>
         <div className="w-full h-full rounded p-10 gap-8 border-2 border-inherit flex flex-col justify-center items-center">
             <span><GitIcon /></span>
